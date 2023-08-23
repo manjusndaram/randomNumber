@@ -1,4 +1,4 @@
-package finalExamJavaOne;
+package PracticalOne;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -10,7 +10,7 @@ public class RandomGenrator {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int nSmallestToFind = sc.nextInt() - 1;
-		List<Integer> inputList = generateNRandomNumbers(25, 10);
+		List<Integer> inputList = generateNRandomNumbers(10, 500);
 		System.out.println(inputList);
 		Collections.sort(inputList);
 		System.out.println(inputList);
